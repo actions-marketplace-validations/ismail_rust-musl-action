@@ -18,5 +18,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ismail/rust-action@master
-        with:
+        with: cargo build --target x86_64-unknown-linux-musl
 
