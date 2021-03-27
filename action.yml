@@ -1,0 +1,9 @@
+name: "Rust Action"
+description: "Latest Rust stable release with musl (armv7, aarch64 and x86_64)"
+author: "İsmail Dönmez"
+branding:
+  icon: "play-circle"
+  color: "gray-dark"
+runs:
+  using: "docker"
+  image: "Dockerfile"
