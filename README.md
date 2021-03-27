@@ -1,4 +1,4 @@
-# Rust Github Action
+# Rust Github Action with Musl
 
 Latest Rust stable release with musl (armv7, aarch64 and x86_64)
 

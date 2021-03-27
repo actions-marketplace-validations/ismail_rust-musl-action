@@ -1,4 +1,4 @@
-name: "Rust Action"
+name: "Rust Action with Musl"
 description: "Latest Rust stable release with musl (armv7, aarch64 and x86_64)"
 author: "İsmail Dönmez"
 branding:
