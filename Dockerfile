@@ -9,7 +9,5 @@ RUN rustup target add aarch64-unknown-linux-musl
 RUN rustup target add armv7-unknown-linux-musleabihf
 RUN rustup target add x86_64-unknown-linux-musl
 
-RUN apt-get update && apt-get dist-upgrade -y
-
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
