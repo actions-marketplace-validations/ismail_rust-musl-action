@@ -1,4 +1,4 @@
-FROM rust:1.54.0
+FROM rust:1.56.1
 
 LABEL "com.github.actions.name"="Rust Action"
 LABEL "com.github.actions.description"="Latest Rust stable with musl (armv7, aarch64 and x86_64)"
