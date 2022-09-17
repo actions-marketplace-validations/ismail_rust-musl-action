@@ -7,7 +7,7 @@ Latest Rust stable release with musl (armv7, aarch64 and x86_64)
 In a file inside `.github/workflows/quickstart.yml`
 
 ```yaml
-name: Rust Example
+name: Rust Musl Build
 
 on: [push]
 
